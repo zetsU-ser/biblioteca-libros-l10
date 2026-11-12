@@ -12,5 +12,8 @@
     "start": "node libros.mjs",
     "sembrar": "node --env-file=.env sembrar.mts",
     "sembrar:respaldo": "node --env-file=.env sembrar.mts --respaldo"
+  },
+  "dependencies": {
+    "@platformatic/kafka": "2.14.0"
   }
 }
